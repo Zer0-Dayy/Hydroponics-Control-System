@@ -1,0 +1,71 @@
+{
+    "metadataIp"    : "10.152.183.17",
+    "eKuiperIp"     : "10.152.183.183",
+    "coreCommandIp" : "edgex-core-command",
+
+    "mqttBroker"           : "192.168.10.103",
+    "mqttSouthboundBroker" : "192.168.1.157",
+    "mqttPort"             : 31883,
+    "mqttSouthboundPort"   : 31883,
+
+    "mqttTopicNewDevice"            : "Devices/ESP1/Config/NewDevice",
+    "mqttTopicNewOnvifDevice"       : "Devices/ESP1/Config/NewOnvifDevice",
+    "mqttTopicNewDeviceProfile"     : "Devices/ESP1/Config/NewDeviceProfile",
+    "mqttTopicUpdate"               : "Devices/ESP1/Config/Update",
+    "mqttResponseTopic"             : "Devices/ESP1/Config/Response",
+    "mqttTopicDeleteDevice"         : "Devices/ESP1/Config/DeleteDevice",
+    "mqttTopicDeleteAllDevices"     : "Devices/ESP1/Config/DeleteAll",
+    "mqttTopicDeleteDevicesByProfile": "Devices/ESP1/Config/DeleteDevicesByProfile",
+    "mqttTopicDeleteProfile"        : "Devices/ESP1/Config/DeleteProfile",
+    "mqttTopicNewStream"            : "Streams/ESP1/Config/New",
+    "mqttTopicDeleteStream"         : "Streams/ESP1/Config/Delete",
+    "mqttTopicNewRule"              : "Rules/ESP1/Config/New",
+    "mqttTopicDeleteRule"           : "Rules/ESP1/Config/Delete",
+
+    "deleteDevice": {
+        "deviceName": "tds12534-42c1-4de5-b2a6-8c9b7a8db135"
+    },
+
+    "deleteDevicesByProfile": {
+        "deviceProfileName": "Ultra_Sonic_Sensor"
+    },
+
+    "deleteProfile": {
+        "deviceProfileName": "Relay_Actuator"
+    },
+
+    "deleteStream": {
+        "streamName": "demo"
+    },
+
+    "deleteRule": {
+        "ruleName": "valveclosed"
+    },
+
+    "Command": {
+        "deviceName"          : "rel4ea5a1f69-42c1-4de5-b2a6-8c9b7a8db126",
+        "deviceResource"      : "Working",
+        "deviceResourceValue" : "false"
+    },
+
+    "addStream": {
+        "sql": "create stream demo() WITH (FORMAT=\"JSON\", TYPE=\"edgex\")"
+    },
+
+    "addRule": {
+        "ruleName"      : "valveclosed1",
+        "sqlQuery"      : "SELECT Status FROM demo WHERE Time =\"17:22:00\"",
+        "deviceName"    : "rel122-42c1-4de5-b2a6-8c9b7a8db135",
+        "resourceName"  : "Working",
+        "resourceValue" : "false"
+    },
+
+    "mqttDeviceSimulator": {
+        "deviceName": "CamSR1",
+        "payload": {
+            "Stream"     : "true",
+            "Record"     : "true",
+            "CameraName" : "Cam1"
+        }
+    }
+}

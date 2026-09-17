@@ -1,0 +1,156 @@
+{
+    "deviceProfiles": [
+        {
+            "name"        : "Relay_Actuator",
+            "manufacturer": "XXX",
+            "model"       : "WPW",
+            "labels"      : ["esp32", "actuator", "mqtt", "relay"],
+            "description" : "Relay actuator — controls pumps, valves, lights",
+            "deviceResources": [
+                {
+                    "name"       : "Working",
+                    "isHidden"   : false,
+                    "description": "Activate or deactivate the relay",
+                    "properties": { "valueType": "Bool", "readWrite": "RW" }
+                },
+                {
+                    "name"       : "Status",
+                    "isHidden"   : false,
+                    "description": "Current relay state",
+                    "properties": { "valueType": "Bool", "readWrite": "R" }
+                }
+            ]
+        },
+        {
+            "name"        : "MQ_7",
+            "manufacturer": "XXX",
+            "model"       : "MQ-7",
+            "labels"      : ["esp32", "sensor", "mqtt", "carbon monoxide"],
+            "description" : "Carbon monoxide sensor",
+            "deviceResources": [
+                {
+                    "name"       : "value",
+                    "isHidden"   : false,
+                    "description": "Raw analog CO concentration",
+                    "properties": { "valueType": "Int32", "readWrite": "R", "units": "raw" }
+                },
+                {
+                    "name"       : "limit",
+                    "isHidden"   : false,
+                    "description": "Digital threshold exceeded (0 or 1)",
+                    "properties": { "valueType": "Int8", "readWrite": "R" }
+                }
+            ]
+        },
+        {
+            "name"        : "Analog_Light",
+            "manufacturer": "XXX",
+            "model"       : "V2.1",
+            "labels"      : ["esp32", "sensor", "mqtt", "light"],
+            "description" : "Analog light intensity sensor",
+            "deviceResources": [
+                {
+                    "name"       : "intensity",
+                    "isHidden"   : false,
+                    "description": "Raw ADC light intensity",
+                    "properties": { "valueType": "Int32", "readWrite": "R", "units": "raw" }
+                }
+            ]
+        },
+        {
+            "name"        : "Ph_sensor",
+            "manufacturer": "XXX",
+            "model"       : "4502C",
+            "labels"      : ["esp32", "sensor", "mqtt", "pH"],
+            "description" : "pH sensor",
+            "deviceResources": [
+                {
+                    "name"       : "Ph value",
+                    "isHidden"   : false,
+                    "description": "pH value of the solution",
+                    "properties": { "valueType": "Float32", "readWrite": "R", "units": "pH" }
+                }
+            ]
+        },
+        {
+            "name"        : "TDS_sensor",
+            "manufacturer": "XXX",
+            "model"       : "V1.0",
+            "labels"      : ["esp32", "sensor", "mqtt", "TDS"],
+            "description" : "Total Dissolved Solids sensor",
+            "deviceResources": [
+                {
+                    "name"       : "TDS value",
+                    "isHidden"   : false,
+                    "description": "TDS concentration in the solution",
+                    "properties": { "valueType": "Float32", "readWrite": "R", "units": "ppm" }
+                }
+            ]
+        },
+        {
+            "name"        : "WaterTemp_sensor",
+            "manufacturer": "XXX",
+            "model"       : "DS18B20",
+            "labels"      : ["esp32", "sensor", "mqtt", "temperature", "water"],
+            "description" : "Waterproof DS18B20 water temperature sensor",
+            "deviceResources": [
+                {
+                    "name"       : "water temperature",
+                    "isHidden"   : false,
+                    "description": "Water temperature in Celsius",
+                    "properties": { "valueType": "Float32", "readWrite": "R", "units": "Celsius" }
+                }
+            ]
+        },
+        {
+            "name"        : "Timer",
+            "manufacturer": "XXX",
+            "labels"      : ["esp32", "time", "ntp"],
+            "description" : "NTP-synced real-time clock",
+            "deviceResources": [
+                {
+                    "name"       : "Time",
+                    "isHidden"   : false,
+                    "description": "Current time (HH:MM:SS)",
+                    "properties": { "valueType": "String", "readWrite": "R" }
+                }
+            ]
+        },
+        {
+            "name"        : "Ultra_Sonic_Sensor",
+            "manufacturer": "XXX",
+            "model"       : "HC-SR04",
+            "labels"      : ["esp32", "sensor", "mqtt", "ultrasonic", "distance"],
+            "description" : "Ultrasonic distance sensor",
+            "deviceResources": [
+                {
+                    "name"       : "distance",
+                    "isHidden"   : false,
+                    "description": "Distance to target in cm",
+                    "properties": { "valueType": "Float32", "readWrite": "R", "units": "cm" }
+                }
+            ]
+        },
+        {
+            "name"        : "Temperature_Humidity_DHT21",
+            "manufacturer": "XXX",
+            "model"       : "DHT21",
+            "labels"      : ["esp32", "sensor", "mqtt", "temperature", "humidity"],
+            "description" : "DHT21 temperature and humidity sensor",
+            "deviceResources": [
+                {
+                    "name"       : "temperature",
+                    "isHidden"   : false,
+                    "description": "Air temperature in Celsius",
+                    "properties": { "valueType": "Float32", "readWrite": "R", "units": "Celsius" }
+                },
+                {
+                    "name"       : "humidity",
+                    "isHidden"   : false,
+                    "description": "Relative humidity in percent",
+                    "properties": { "valueType": "Float32", "readWrite": "R", "units": "%" }
+                }
+            ]
+        }
+    ]
+}

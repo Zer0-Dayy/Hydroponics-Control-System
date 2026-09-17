@@ -1,0 +1,329 @@
+{
+    "devices": [
+
+        {
+            "name"        : "tds-esp1-0001-4de5-b2a6-8c9b7a8d0101",
+            "profileName" : "TDS_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "TDS sensor",
+            "espName"     : "ESP1",
+            "gpios"       : [34]
+        },
+        {
+            "name"        : "dht-esp1-0001-4de5-b2a6-8c9b7a8d0102",
+            "profileName" : "Temperature_Humidity_DHT21",
+            "serviceName" : "device-mqtt",
+            "description" : "Temperature and humidity sensor",
+            "espName"     : "ESP1",
+            "gpios"       : [4]
+        },
+        {
+            "name"        : "mq7-esp1-0001-4de5-b2a6-8c9b7a8d0103",
+            "profileName" : "MQ_7",
+            "serviceName" : "device-mqtt",
+            "description" : "Carbon monoxide sensor",
+            "espName"     : "ESP1",
+            "gpios"       : [32, 33]
+        },
+        {
+            "name"        : "lgt-esp1-0001-4de5-b2a6-8c9b7a8d0104",
+            "profileName" : "Analog_Light",
+            "serviceName" : "device-mqtt",
+            "description" : "Analog light sensor",
+            "espName"     : "ESP1",
+            "gpios"       : [36]
+        },
+        {
+            "name"        : "phx-esp1-0001-4de5-b2a6-8c9b7a8d0105",
+            "profileName" : "Ph_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "pH sensor",
+            "espName"     : "ESP1",
+            "gpios"       : [35]
+        },
+        {
+            "name"        : "son-esp1-0001-4de5-b2a6-8c9b7a8d0106",
+            "profileName" : "Ultra_Sonic_Sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "Ultrasonic distance sensor",
+            "espName"     : "ESP1",
+            "gpios"       : [23, 22]
+        },
+        {
+            "name"        : "re1-esp1-0001-4de5-b2a6-8c9b7a8d0107",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 1",
+            "espName"     : "ESP1",
+            "gpios"       : [21]
+        },
+        {
+            "name"        : "re2-esp1-0001-4de5-b2a6-8c9b7a8d0108",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 2",
+            "espName"     : "ESP1",
+            "gpios"       : [18]
+        },
+        {
+            "name"        : "re3-esp1-0001-4de5-b2a6-8c9b7a8d0109",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 3",
+            "espName"     : "ESP1",
+            "gpios"       : [5]
+        },
+        {
+            "name"        : "re4-esp1-0001-4de5-b2a6-8c9b7a8d0110",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 4",
+            "espName"     : "ESP1",
+            "gpios"       : [27]
+        },
+
+        {
+            "name"        : "tds-esp2-0001-4de5-b2a6-8c9b7a8d0201",
+            "profileName" : "TDS_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "TDS sensor",
+            "espName"     : "ESP2",
+            "gpios"       : [34]
+        },
+        {
+            "name"        : "dht-esp2-0001-4de5-b2a6-8c9b7a8d0202",
+            "profileName" : "Temperature_Humidity_DHT21",
+            "serviceName" : "device-mqtt",
+            "description" : "Temperature and humidity sensor",
+            "espName"     : "ESP2",
+            "gpios"       : [2]
+        },
+        {
+            "name"        : "mq7-esp2-0001-4de5-b2a6-8c9b7a8d0203",
+            "profileName" : "MQ_7",
+            "serviceName" : "device-mqtt",
+            "description" : "Carbon monoxide sensor",
+            "espName"     : "ESP2",
+            "gpios"       : [32, 33]
+        },
+        {
+            "name"        : "lgt-esp2-0001-4de5-b2a6-8c9b7a8d0204",
+            "profileName" : "Analog_Light",
+            "serviceName" : "device-mqtt",
+            "description" : "Analog light sensor",
+            "espName"     : "ESP2",
+            "gpios"       : [36]
+        },
+        {
+            "name"        : "phx-esp2-0001-4de5-b2a6-8c9b7a8d0205",
+            "profileName" : "Ph_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "pH sensor",
+            "espName"     : "ESP2",
+            "gpios"       : [35]
+        },
+        {
+            "name"        : "son-esp2-0001-4de5-b2a6-8c9b7a8d0206",
+            "profileName" : "Ultra_Sonic_Sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "Ultrasonic distance sensor",
+            "espName"     : "ESP2",
+            "gpios"       : [23, 22]
+        },
+        {
+            "name"        : "re1-esp2-0001-4de5-b2a6-8c9b7a8d0207",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 1",
+            "espName"     : "ESP2",
+            "gpios"       : [21]
+        },
+        {
+            "name"        : "re2-esp2-0001-4de5-b2a6-8c9b7a8d0208",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 2",
+            "espName"     : "ESP2",
+            "gpios"       : [18]
+        },
+        {
+            "name"        : "re3-esp2-0001-4de5-b2a6-8c9b7a8d0209",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 3",
+            "espName"     : "ESP2",
+            "gpios"       : [5]
+        },
+        {
+            "name"        : "re4-esp2-0001-4de5-b2a6-8c9b7a8d0210",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 4",
+            "espName"     : "ESP2",
+            "gpios"       : [27]
+        },
+
+        {
+            "name"        : "tds-esp3-0001-4de5-b2a6-8c9b7a8d0301",
+            "profileName" : "TDS_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "TDS sensor",
+            "espName"     : "ESP3",
+            "gpios"       : [34]
+        },
+        {
+            "name"        : "dht-esp3-0001-4de5-b2a6-8c9b7a8d0302",
+            "profileName" : "Temperature_Humidity_DHT21",
+            "serviceName" : "device-mqtt",
+            "description" : "Temperature and humidity sensor",
+            "espName"     : "ESP3",
+            "gpios"       : [2]
+        },
+        {
+            "name"        : "mq7-esp3-0001-4de5-b2a6-8c9b7a8d0303",
+            "profileName" : "MQ_7",
+            "serviceName" : "device-mqtt",
+            "description" : "Carbon monoxide sensor",
+            "espName"     : "ESP3",
+            "gpios"       : [32, 33]
+        },
+        {
+            "name"        : "lgt-esp3-0001-4de5-b2a6-8c9b7a8d0304",
+            "profileName" : "Analog_Light",
+            "serviceName" : "device-mqtt",
+            "description" : "Analog light sensor",
+            "espName"     : "ESP3",
+            "gpios"       : [36]
+        },
+        {
+            "name"        : "phx-esp3-0001-4de5-b2a6-8c9b7a8d0305",
+            "profileName" : "Ph_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "pH sensor",
+            "espName"     : "ESP3",
+            "gpios"       : [35]
+        },
+        {
+            "name"        : "son-esp3-0001-4de5-b2a6-8c9b7a8d0306",
+            "profileName" : "Ultra_Sonic_Sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "Ultrasonic distance sensor",
+            "espName"     : "ESP3",
+            "gpios"       : [23, 22]
+        },
+        {
+            "name"        : "re1-esp3-0001-4de5-b2a6-8c9b7a8d0307",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 1",
+            "espName"     : "ESP3",
+            "gpios"       : [21]
+        },
+        {
+            "name"        : "re2-esp3-0001-4de5-b2a6-8c9b7a8d0308",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 2",
+            "espName"     : "ESP3",
+            "gpios"       : [18]
+        },
+        {
+            "name"        : "re3-esp3-0001-4de5-b2a6-8c9b7a8d0309",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 3",
+            "espName"     : "ESP3",
+            "gpios"       : [5]
+        },
+        {
+            "name"        : "re4-esp3-0001-4de5-b2a6-8c9b7a8d0310",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 4",
+            "espName"     : "ESP3",
+            "gpios"       : [27]
+        },
+
+        {
+            "name"        : "tds-esp4-0001-4de5-b2a6-8c9b7a8d0401",
+            "profileName" : "TDS_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "TDS sensor",
+            "espName"     : "ESP4",
+            "gpios"       : [34]
+        },
+        {
+            "name"        : "dht-esp4-0001-4de5-b2a6-8c9b7a8d0402",
+            "profileName" : "Temperature_Humidity_DHT21",
+            "serviceName" : "device-mqtt",
+            "description" : "Temperature and humidity sensor",
+            "espName"     : "ESP4",
+            "gpios"       : [2]
+        },
+        {
+            "name"        : "mq7-esp4-0001-4de5-b2a6-8c9b7a8d0403",
+            "profileName" : "MQ_7",
+            "serviceName" : "device-mqtt",
+            "description" : "Carbon monoxide sensor",
+            "espName"     : "ESP4",
+            "gpios"       : [32, 33]
+        },
+        {
+            "name"        : "lgt-esp4-0001-4de5-b2a6-8c9b7a8d0404",
+            "profileName" : "Analog_Light",
+            "serviceName" : "device-mqtt",
+            "description" : "Analog light sensor",
+            "espName"     : "ESP4",
+            "gpios"       : [36]
+        },
+        {
+            "name"        : "phx-esp4-0001-4de5-b2a6-8c9b7a8d0405",
+            "profileName" : "Ph_sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "pH sensor",
+            "espName"     : "ESP4",
+            "gpios"       : [35]
+        },
+        {
+            "name"        : "son-esp4-0001-4de5-b2a6-8c9b7a8d0406",
+            "profileName" : "Ultra_Sonic_Sensor",
+            "serviceName" : "device-mqtt",
+            "description" : "Ultrasonic distance sensor",
+            "espName"     : "ESP4",
+            "gpios"       : [23, 22]
+        },
+        {
+            "name"        : "re1-esp4-0001-4de5-b2a6-8c9b7a8d0407",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 1",
+            "espName"     : "ESP4",
+            "gpios"       : [21]
+        },
+        {
+            "name"        : "re2-esp4-0001-4de5-b2a6-8c9b7a8d0408",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 2",
+            "espName"     : "ESP4",
+            "gpios"       : [18]
+        },
+        {
+            "name"        : "re3-esp4-0001-4de5-b2a6-8c9b7a8d0409",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 3",
+            "espName"     : "ESP4",
+            "gpios"       : [5]
+        },
+        {
+            "name"        : "re4-esp4-0001-4de5-b2a6-8c9b7a8d0410",
+            "profileName" : "Relay_Actuator",
+            "serviceName" : "device-mqtt",
+            "description" : "Relay 4",
+            "espName"     : "ESP4",
+            "gpios"       : [27]
+        }
+
+    ]
+}
